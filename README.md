@@ -1,2 +1,3 @@
 # Bin2Dec
-Binário para Decimal!
+
+Transforme números **Binário para Decimal**!
