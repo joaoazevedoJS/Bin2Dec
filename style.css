@@ -46,6 +46,27 @@ button.btn:active {
     background: #f13935;
 }
 
+/* ICON */
+
+.icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    padding: 15px;
+    font-size: 120%;
+    background: transparent;
+    color: #f14d4b;
+    transition: color 0.7s, background 0.7s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.icons:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #f72522
+}
+
 /* HEADER */
 
 header {
@@ -64,6 +85,7 @@ main {
     border-radius: 3px;
     box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.7);
     margin-bottom: 50px;
+    position: relative;
 }
 
 div.container {
@@ -77,16 +99,17 @@ div.container {
     cursor: pointer;
 }
 
-input#binary, 
-div.decimal {
+input#binary-decimal, 
+div.result {
     margin-bottom: 25px;
     height: 25px;
     text-align: center;
     background: #f9f9f9;
+    overflow: auto;
 }
 
-input#binary, 
-div.decimal, 
+input#binary-decimal, 
+div.result, 
 button.btn {
     border-radius: 3px;
     border: 1px solid #ddd;
