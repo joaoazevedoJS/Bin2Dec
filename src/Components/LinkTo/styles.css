@@ -1,0 +1,10 @@
+a.c-LinkTo {
+  text-decoration: none;
+  color: rgb(198, 198, 245);
+  transition: color 0.4s;
+}
+
+a.c-LinkTo:hover,
+a.c-LinkTo:active {
+  color: rgb(105, 105, 221);
+}

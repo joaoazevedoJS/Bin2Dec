@@ -1,0 +1,28 @@
+div.c-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.c-input label {
+  margin-bottom: 8px;
+  align-self: start;
+  color: #615f5f;
+  font-size: 16px;
+  transition: color 0.4s;
+}
+
+div.c-input input {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 16px;
+  color: #615f5f;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 16px;
+}
+
+div.c-input:focus-within label {
+  color: #292828;
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, button, input, textarea {
+  font-family: 'Roboto', sans-serif;
+  color: #2c2b2b;
+}
+
+.App {
+  width: 100%;
+  max-width: 1120px;
+  margin: 16px auto;
+  height: 100vh;
+  max-height: calc(100vh - 32px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  margin: 64px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h2 {
+  font-weight: 400;
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+main form.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  
+  width: 100%;
+  box-shadow: 0px 1px 7px rgba(51, 51, 51, 0.199);
+  border-radius: 4px;
+  padding: 32px;
+}
+
+main form.container .icon-swap {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #df7373;
+  cursor: pointer;
+  transition: color 0.4s;
+  user-select: none;
+}
+
+main form.container .icon-swap:hover {
+  color: #c74e4e;
+}
+
+main form.container button {
+  margin-top: 16px;
+  width: 100%;
+  height: 46px;
+  font-weight: bold;
+  color: #fff;
+  background: #df7373;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: #333;
+  transition: background 0.4s;
+}
+
+main form.container button:hover {
+  background: #c74e4e;
+}
+
+footer .icon-link {
+  margin-right: 16px;
+  font-size: 32px;
+}
+
+@media (max-width: 575px) {
+  main {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 475px) {
+  main {
+    max-width: 300px;
+  }
+}
